@@ -237,3 +237,8 @@ body {
   .product-grid__view:hover {
     background: white;
   }
+
+  .specifications {
+    padding-left: 100px;
+
+  }
