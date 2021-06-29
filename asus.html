@@ -7,6 +7,24 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 <link rel="stylesheet" href="./style.css">
 
+<style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    .column {
+      float: left;
+      width: 33.33%;
+      padding: 5px;
+    }
+    
+    /* Clearfix (clear floats) */
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    </style>
 </head>
 <body>
 <!-- partial:index.partial.html -->
@@ -15,6 +33,18 @@
 		<h1>Laptops</h1>
 		
 	</div>
+
+    <div class="row">
+        <div class="column">
+          <img src="images/picture1_02.png" alt="one" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="images/picture1_03.png" alt="Forest" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="images/picture1_04.png" alt="Mountains" style="width:100%">
+        </div>
+
 
 	<div class="content">
 		<!-- content here -->
@@ -29,7 +59,7 @@
 							<img src="images/picture1_01.png" alt="Img" class="product-grid__img" />
 						</div>
 						<span class="product-grid__title">Asus E410 </span>
-						<span class="product-grid__price">1.399€</span>
+						<span class="product-grid__price">R4,999</span>
 						<div class="product-grid__extend-wrapper">
 							<div class="product-grid__extend">
 								<p class="product-grid__description">Asus E410 Celeron N4020 4GB 128GB 14" FHD Notebook - Blue
