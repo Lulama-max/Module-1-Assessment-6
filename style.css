@@ -240,5 +240,6 @@ body {
 
   .specifications {
     padding-left: 1000px;
+    float:left;
 
   }
